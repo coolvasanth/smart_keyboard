@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BBF1C411D5923AF006337DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF1C401D5923AF006337DA /* AppDelegate.swift */; };
+		8BBF1C431D5923AF006337DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF1C421D5923AF006337DA /* ViewController.swift */; };
+		8BBF1C461D5923AF006337DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBF1C441D5923AF006337DA /* Main.storyboard */; };
+		8BBF1C481D5923AF006337DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BBF1C471D5923AF006337DA /* Assets.xcassets */; };
+		8BBF1C4B1D5923AF006337DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBF1C491D5923AF006337DA /* LaunchScreen.storyboard */; };
+		8BBF1C561D5923AF006337DA /* SBIntelligentKeyBoardDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF1C551D5923AF006337DA /* SBIntelligentKeyBoardDemoTests.swift */; };
+		8BBF1C611D5923AF006337DA /* SBIntelligentKeyBoardDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF1C601D5923AF006337DA /* SBIntelligentKeyBoardDemoUITests.swift */; };
+		8BBF1C721D592570006337DA /* SBKeyBoardInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF1C701D592570006337DA /* SBKeyBoardInputAccessoryView.swift */; };
+		8BBF1C731D592570006337DA /* SBTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF1C711D592570006337DA /* SBTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BBF1C521D5923AF006337DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BBF1C351D5923AF006337DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BBF1C3C1D5923AF006337DA;
+			remoteInfo = SBIntelligentKeyBoardDemo;
+		};
+		8BBF1C5D1D5923AF006337DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BBF1C351D5923AF006337DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BBF1C3C1D5923AF006337DA;
+			remoteInfo = SBIntelligentKeyBoardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BBF1C3D1D5923AF006337DA /* SBIntelligentKeyBoardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBIntelligentKeyBoardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBF1C401D5923AF006337DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BBF1C421D5923AF006337DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BBF1C451D5923AF006337DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BBF1C471D5923AF006337DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BBF1C4A1D5923AF006337DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BBF1C4C1D5923AF006337DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BBF1C511D5923AF006337DA /* SBIntelligentKeyBoardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBIntelligentKeyBoardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBF1C551D5923AF006337DA /* SBIntelligentKeyBoardDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBIntelligentKeyBoardDemoTests.swift; sourceTree = "<group>"; };
+		8BBF1C571D5923AF006337DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BBF1C5C1D5923AF006337DA /* SBIntelligentKeyBoardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBIntelligentKeyBoardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBF1C601D5923AF006337DA /* SBIntelligentKeyBoardDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBIntelligentKeyBoardDemoUITests.swift; sourceTree = "<group>"; };
+		8BBF1C621D5923AF006337DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BBF1C701D592570006337DA /* SBKeyBoardInputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SBKeyBoardInputAccessoryView.swift; path = SBIntelligentKeyBoard/SBKeyBoardInputAccessoryView.swift; sourceTree = "<group>"; };
+		8BBF1C711D592570006337DA /* SBTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SBTextField.swift; path = SBIntelligentKeyBoard/SBTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BBF1C3A1D5923AF006337DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBF1C4E1D5923AF006337DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBF1C591D5923AF006337DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BBF1C341D5923AF006337DA = {
+			isa = PBXGroup;
+			children = (
+				8BBF1C3F1D5923AF006337DA /* SBIntelligentKeyBoardDemo */,
+				8BBF1C541D5923AF006337DA /* SBIntelligentKeyBoardDemoTests */,
+				8BBF1C5F1D5923AF006337DA /* SBIntelligentKeyBoardDemoUITests */,
+				8BBF1C3E1D5923AF006337DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BBF1C3E1D5923AF006337DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BBF1C3D1D5923AF006337DA /* SBIntelligentKeyBoardDemo.app */,
+				8BBF1C511D5923AF006337DA /* SBIntelligentKeyBoardDemoTests.xctest */,
+				8BBF1C5C1D5923AF006337DA /* SBIntelligentKeyBoardDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BBF1C3F1D5923AF006337DA /* SBIntelligentKeyBoardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8BBF1C741D5925B5006337DA /* SBIntelligentKeyBoard */,
+				8BBF1C401D5923AF006337DA /* AppDelegate.swift */,
+				8BBF1C421D5923AF006337DA /* ViewController.swift */,
+				8BBF1C441D5923AF006337DA /* Main.storyboard */,
+				8BBF1C471D5923AF006337DA /* Assets.xcassets */,
+				8BBF1C491D5923AF006337DA /* LaunchScreen.storyboard */,
+				8BBF1C4C1D5923AF006337DA /* Info.plist */,
+			);
+			path = SBIntelligentKeyBoardDemo;
+			sourceTree = "<group>";
+		};
+		8BBF1C541D5923AF006337DA /* SBIntelligentKeyBoardDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BBF1C551D5923AF006337DA /* SBIntelligentKeyBoardDemoTests.swift */,
+				8BBF1C571D5923AF006337DA /* Info.plist */,
+			);
+			path = SBIntelligentKeyBoardDemoTests;
+			sourceTree = "<group>";
+		};
+		8BBF1C5F1D5923AF006337DA /* SBIntelligentKeyBoardDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BBF1C601D5923AF006337DA /* SBIntelligentKeyBoardDemoUITests.swift */,
+				8BBF1C621D5923AF006337DA /* Info.plist */,
+			);
+			path = SBIntelligentKeyBoardDemoUITests;
+			sourceTree = "<group>";
+		};
+		8BBF1C741D5925B5006337DA /* SBIntelligentKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				8BBF1C701D592570006337DA /* SBKeyBoardInputAccessoryView.swift */,
+				8BBF1C711D592570006337DA /* SBTextField.swift */,
+			);
+			name = SBIntelligentKeyBoard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BBF1C3C1D5923AF006337DA /* SBIntelligentKeyBoardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BBF1C651D5923AF006337DA /* Build configuration list for PBXNativeTarget "SBIntelligentKeyBoardDemo" */;
+			buildPhases = (
+				8BBF1C391D5923AF006337DA /* Sources */,
+				8BBF1C3A1D5923AF006337DA /* Frameworks */,
+				8BBF1C3B1D5923AF006337DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBIntelligentKeyBoardDemo;
+			productName = SBIntelligentKeyBoardDemo;
+			productReference = 8BBF1C3D1D5923AF006337DA /* SBIntelligentKeyBoardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BBF1C501D5923AF006337DA /* SBIntelligentKeyBoardDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BBF1C681D5923AF006337DA /* Build configuration list for PBXNativeTarget "SBIntelligentKeyBoardDemoTests" */;
+			buildPhases = (
+				8BBF1C4D1D5923AF006337DA /* Sources */,
+				8BBF1C4E1D5923AF006337DA /* Frameworks */,
+				8BBF1C4F1D5923AF006337DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BBF1C531D5923AF006337DA /* PBXTargetDependency */,
+			);
+			name = SBIntelligentKeyBoardDemoTests;
+			productName = SBIntelligentKeyBoardDemoTests;
+			productReference = 8BBF1C511D5923AF006337DA /* SBIntelligentKeyBoardDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BBF1C5B1D5923AF006337DA /* SBIntelligentKeyBoardDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BBF1C6B1D5923AF006337DA /* Build configuration list for PBXNativeTarget "SBIntelligentKeyBoardDemoUITests" */;
+			buildPhases = (
+				8BBF1C581D5923AF006337DA /* Sources */,
+				8BBF1C591D5923AF006337DA /* Frameworks */,
+				8BBF1C5A1D5923AF006337DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BBF1C5E1D5923AF006337DA /* PBXTargetDependency */,
+			);
+			name = SBIntelligentKeyBoardDemoUITests;
+			productName = SBIntelligentKeyBoardDemoUITests;
+			productReference = 8BBF1C5C1D5923AF006337DA /* SBIntelligentKeyBoardDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BBF1C351D5923AF006337DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Sandeep;
+				TargetAttributes = {
+					8BBF1C3C1D5923AF006337DA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8BBF1C501D5923AF006337DA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8BBF1C3C1D5923AF006337DA;
+					};
+					8BBF1C5B1D5923AF006337DA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8BBF1C3C1D5923AF006337DA;
+					};
+				};
+			};
+			buildConfigurationList = 8BBF1C381D5923AF006337DA /* Build configuration list for PBXProject "SBIntelligentKeyBoardDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BBF1C341D5923AF006337DA;
+			productRefGroup = 8BBF1C3E1D5923AF006337DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BBF1C3C1D5923AF006337DA /* SBIntelligentKeyBoardDemo */,
+				8BBF1C501D5923AF006337DA /* SBIntelligentKeyBoardDemoTests */,
+				8BBF1C5B1D5923AF006337DA /* SBIntelligentKeyBoardDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BBF1C3B1D5923AF006337DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBF1C4B1D5923AF006337DA /* LaunchScreen.storyboard in Resources */,
+				8BBF1C481D5923AF006337DA /* Assets.xcassets in Resources */,
+				8BBF1C461D5923AF006337DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBF1C4F1D5923AF006337DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBF1C5A1D5923AF006337DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BBF1C391D5923AF006337DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBF1C721D592570006337DA /* SBKeyBoardInputAccessoryView.swift in Sources */,
+				8BBF1C431D5923AF006337DA /* ViewController.swift in Sources */,
+				8BBF1C731D592570006337DA /* SBTextField.swift in Sources */,
+				8BBF1C411D5923AF006337DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBF1C4D1D5923AF006337DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBF1C561D5923AF006337DA /* SBIntelligentKeyBoardDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBF1C581D5923AF006337DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBF1C611D5923AF006337DA /* SBIntelligentKeyBoardDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BBF1C531D5923AF006337DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BBF1C3C1D5923AF006337DA /* SBIntelligentKeyBoardDemo */;
+			targetProxy = 8BBF1C521D5923AF006337DA /* PBXContainerItemProxy */;
+		};
+		8BBF1C5E1D5923AF006337DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BBF1C3C1D5923AF006337DA /* SBIntelligentKeyBoardDemo */;
+			targetProxy = 8BBF1C5D1D5923AF006337DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BBF1C441D5923AF006337DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BBF1C451D5923AF006337DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BBF1C491D5923AF006337DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BBF1C4A1D5923AF006337DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BBF1C631D5923AF006337DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BBF1C641D5923AF006337DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BBF1C661D5923AF006337DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SBIntelligentKeyBoardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.SBIntelligentKeyBoardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BBF1C671D5923AF006337DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SBIntelligentKeyBoardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.SBIntelligentKeyBoardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8BBF1C691D5923AF006337DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SBIntelligentKeyBoardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.SBIntelligentKeyBoardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SBIntelligentKeyBoardDemo.app/SBIntelligentKeyBoardDemo";
+			};
+			name = Debug;
+		};
+		8BBF1C6A1D5923AF006337DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SBIntelligentKeyBoardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.SBIntelligentKeyBoardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SBIntelligentKeyBoardDemo.app/SBIntelligentKeyBoardDemo";
+			};
+			name = Release;
+		};
+		8BBF1C6C1D5923AF006337DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SBIntelligentKeyBoardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.SBIntelligentKeyBoardDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SBIntelligentKeyBoardDemo;
+			};
+			name = Debug;
+		};
+		8BBF1C6D1D5923AF006337DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SBIntelligentKeyBoardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.SBIntelligentKeyBoardDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SBIntelligentKeyBoardDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BBF1C381D5923AF006337DA /* Build configuration list for PBXProject "SBIntelligentKeyBoardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBF1C631D5923AF006337DA /* Debug */,
+				8BBF1C641D5923AF006337DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BBF1C651D5923AF006337DA /* Build configuration list for PBXNativeTarget "SBIntelligentKeyBoardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBF1C661D5923AF006337DA /* Debug */,
+				8BBF1C671D5923AF006337DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BBF1C681D5923AF006337DA /* Build configuration list for PBXNativeTarget "SBIntelligentKeyBoardDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBF1C691D5923AF006337DA /* Debug */,
+				8BBF1C6A1D5923AF006337DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BBF1C6B1D5923AF006337DA /* Build configuration list for PBXNativeTarget "SBIntelligentKeyBoardDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BBF1C6C1D5923AF006337DA /* Debug */,
+				8BBF1C6D1D5923AF006337DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BBF1C351D5923AF006337DA /* Project object */;
+}
